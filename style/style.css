@@ -38,7 +38,7 @@ li {
 .cart {
   width: 31px;
   height: 49px;
-  /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+  filter: brightness(0) invert(1);
 }
 
 .hero {
@@ -137,7 +137,7 @@ li {
   width: 70px;
   height: auto;
   position: absolute;
-  top: 30%;
+  top: 37%;
   left: -30px;
   /* bottom :50%; */
 }
@@ -421,4 +421,69 @@ footer{
     font-size: 44px;
 
   }
+}
+
+
+
+@media only screen and (max-width: 890px) {
+ul{
+  display: none;
+}
+.footer-text-first{
+  width: 100%;
+
+}
+.wine-img{
+  width: 300px
+}
+.product-img{
+  display: flex;
+  justify-content: center;
+}
+.ad-first{
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-second-text{
+  font-size: 30px;
+}
+.product-first-second-text{
+  font-size: 35px;
+}
+.cont{
+  padding: 0 8px 0 8px;
+}
+.container-product-card{
+  gap: 0;
+  
+}
+.product-img img:hover{
+  width: 370px;
+
+}
+.hero-first-text{
+  font-size: 40px;
+  margin-top: -150px;
+  margin-bottom: 24px;
+
+}
+.hero-second-text{
+  font-size: 10px;
+  max-width: 350px;
+  margin-bottom: 27px;
+
+}
+.hero-thierd-text input{
+  padding: 7px;
+  padding-left: 36px;
+}
+.hero-thierd-text button{
+  padding: 7px 32px;
+}
+.search-icon{
+  top: 7px;
+  left: 34px;
+}
 }
